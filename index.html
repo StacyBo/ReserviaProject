@@ -9,7 +9,6 @@
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
             <script src="https://kit.fontawesome.com/56ff9525e9.js" crossorigin="anonymous"></script>
         </head>
-
         <body>
             <header>
                 <div id="logo">
@@ -25,7 +24,7 @@
                         </ul>
                     </nav>
 
-                    <div class="inscription"> 
+                    <div class="inscription">
                         <p><a href="#">S'inscrire</a></p>
                     </div>
                 </div>
@@ -39,60 +38,65 @@
 
                 <form>
                     <div class="recherche">
-                        <i class="fas fa-map-marker-alt"></i><input type="search" placeholder="Marseille,France" class="searchbox"> 
+                        <div class="icon-container">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <input type="search" placeholder="Marseille,France" class="searchbox">
                         <button><a href="#">Rechercher</a></button>
                     </div>
                 </form>
 
                 <div class="filtres">
-                    <h3 class="title-filtres">Filtres</h3>
-
-                    <div class="economique">
-                        <span class="fa-stack" style="vertical-align: top;">
-                            <i class="fas fa-money-bill-wave fa-stack-1x icone-filtre2"></i>
-                        </span>                    
-                        <h3>&nbsp;Économique</3>
+                    <h3>Filtres</h3>
+                    <div class="filtre">
+                        <div class="icon-container">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3>&nbsp;Économique</h3>
                     </div>
 
-                    <div class="familiale">
-                        <span class="fa-stack" style="vertical-align: top;">
-                            <i class="fas fa-child fa-stack-1x icone-filtre2"></i>
-                        </span>
+                    <div class="filtre">
+                        <div class="icon-container">
+                            <i class="fas fa-child"></i>
+                        </div>
                         <h3>&nbsp;Familiale</h3>
                     </div>
 
-                    <div class="romantique">
-                        <span class="fa-stack" style="vertical-align: top;">
-                            <i class="fas fa-heart fa-stack-1x icone-filtre2"></i>
-                        </span>
+                    <div class="filtre">
+                        <div class="icon-container">
+                            <i class="fas fa-heart"></i>
+                        </div>
                         <h3>&nbsp;Romantique</h3>
                     </div>
 
-                    <div class="animaux-autorises">
-                        <span class="fa-stack" style="vertical-align: top;">
-                            <i class="fas fa-dog fa-stack-1x icone-filtre2"></i>
-                        </span>
+                    <div class="filtre">
+                        <div class="icon-container">
+                            <i class="fas fa-dog"></i>
+                        </div>
                         <h3>&nbsp;Animaux autorisés</h3>
                     </div>
                 </div>
 
                 <div class="infos">     
-                    <span class="fa-stack" style="vertical-align: top;">
-                        <i class="far fa-circle fa-stack-2x "></i>
-                        <i class="fas fa-info fa-stack-1x icone-filtre"></i>
-                    </span>
-                    <p classe="info-restant">&nbsp;Plus de 500 logements sont disponibles dans cette ville</p>
+                    <div class="icon-circle-container">
+                        <i class="fas fa-info icone-filtre"></i>
+                    </div>
+
+                    <div>
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
                 </div>
 
             </section> 
             
             <main class="hebergements_popular"> 
                 <section class="hebergements" id="hebergements">
-                    <div class=" title-hebergements">
+                    <div class="title-hebergements">
                         <h2>Hébergements à Marseille</h2>
                     </div>
 
                     <div class="bloc-card-hebergements">
+                    
                     <a href="#">
                         <div class="cardhebergements herbergement">
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo auberge la cannebière" class="media-hebergements">
@@ -183,7 +187,7 @@
                         </div>
                     </a>
 
-                    <div class="more">
+                        <div class="more">
                             <h3>Afficher plus</h3>
                         </div>
                     </div>
@@ -198,72 +202,70 @@
 
                     <div class="bloc-card-popular">
 
-                    <a href="#">
-                        <div class="cardpopular">
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="media-popular">    
-                            <div class="text-popular">
-                                <div class="name_price">
-                                    <h3>Hôtel Le soleil du matin</h3>
-                                    <p>Nuit à partir de 128€</p>
-                                    <p>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star disabled-star"></i>
-                                    </p>
+                        <a href="#">
+                            <div class="cardpopular">
+                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="media-popular">    
+                                <div class="text-popular">
+                                    <div>
+                                        <h3>Hôtel Le soleil du<br> matin</h3>
+                                        <p>Nuit à partir de 128€</p>
+                                        <p>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star disabled-star"></i>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>    
+                        </a>    
 
-                    <a href="#">
-                        <div class="cardpopular">
-                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="media-popular">    
-                            <div class="text-popular">
-                                <div class="name_price">
-                                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                                    <p>Nuit à partir de 71€</p>
-                                    <p>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star disabled-star"></i>
-                                    </p>
+                        <a href="#">
+                            <div class="cardpopular">
+                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" class="media-popular">    
+                                <div class="text-popular">
+                                    <div>
+                                        <h3>Au coeur de l'eau<br> Chambres d'hôtes</h3>
+                                        <p>Nuit à partir de 71€</p>
+                                        <p>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star disabled-star"></i>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
 
-                    <a href="#">
-                        <div class="cardpopular">
-                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="media-popular">    
-                            <div class="text-popular">
-                                <div class="name_price">
-                                    <h3>Hôtel Le soleil du matin</h3>
-                                    <p>Nuit à partir de 128€</p>
-                                    <p>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </p>
+                        <a href="#">
+                            <div class="cardpopular">
+                                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" class="media-popular">    
+                                <div class="text-popular">
+                                    <div>
+                                        <h3>Hôtel Tout bleu et<br> Blanc</h3>
+                                        <p>Nuit à partir de 128€</p>
+                                        <p>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>    
-
+                        </a>    
                     </div>
-                
                 </aside>
             </main>
   
             <section id="activities">
                 <div>
                     <div>
-                        <h2 class="title-activities">Activités à Marseille</h2>
+                        <h2>Activités à Marseille</h2>
                     </div>
                     
                     <div class="bloc-card">
@@ -341,7 +343,6 @@
                         <li>Nous contacter</li>
                     </ul>
                 </div>
-                
             </footer>
         </body>
     </html> 
