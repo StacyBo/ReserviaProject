@@ -14,7 +14,7 @@ main
 h1
 {
     font-family: 'Raleway', sans-serif;
-    font-weight : bold ;
+    font-weight : bold;
     font-size: 1.3em;
 }
 
@@ -1109,5 +1109,109 @@ footer div
         font-size: 1em;
         margin-left: 5px;
     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    /* FILTRES */
+    .filtres
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .title-filtres
+    {
+        width: 100%;
+    }
+
+    .filtre
+    {
+        margin-bottom: 15px;
+        font-size: 0.8em;
+        margin-right: 15px;
+    }
+
+    .infos
+    {
+        margin-top: 0px;
+    }
+
+    /* HEBERGEMENTS - POPULAIRES */
+
+    .hebergements_popular
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+
+    .popular
+    {
+        padding-bottom: 25px;
+        padding-right: 30px;
+    }
+
+    .bloc-card-popular
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bloc-card-popular a 
+    {
+        margin-left: 0px;
+    }
+    
+    .title-popular h2
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cardpopular
+    {
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .cardpopular p
+    {
+        margin-bottom: 0px;
+    }
+    .media-popular
+    {
+        height: 110px;
+    }
+
+    .hebergements
+    {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .cardhebergements
+    {
+        flex-direction: column;
+        width: 300px;
+        height: 220px;
+    }
+
+    .media-hebergements
+    {
+        width: 290px;
+    }
+
+    .more
+    {
+        margin-left: 30px;
+    }
+
+
+
 }
 
