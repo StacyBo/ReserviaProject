@@ -756,9 +756,10 @@ footer div
     button
     {
         height: 50px;
-        width: 60px;
+        width: 50px;
         border-style: none;
         border-radius: 1em 1em 1em 1em;
+        margin-left: -15px;
     }
 
     form span
@@ -906,12 +907,13 @@ footer div
         padding: 0px;
     }
 
-    .more
+    .more h3
     {
         font-size: 1em;
         padding-top: 0px;
         padding-bottom: 0px;
-        margin-left: 5px;
+        margin: 0px;
+        margin-left: 30px;
     }
 
     /*popular*/
@@ -1111,6 +1113,7 @@ footer div
     }
 }
 
+/*TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1024px)
 {
     /* FILTRES */
@@ -1167,8 +1170,8 @@ footer div
     
     .title-popular h2
     {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .cardpopular
@@ -1211,6 +1214,19 @@ footer div
         margin-left: 30px;
     }
 
+    /* ACTIVITES */
+
+    .miniblocard
+    {
+        width: 400px;
+    }
+
+    /*footer*/
+
+    footer div
+    {
+        margin-right: 45px;
+    }
 
 
 }
