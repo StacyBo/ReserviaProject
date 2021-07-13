@@ -217,13 +217,15 @@ button:hover
     padding-right: 20px;
 }
 
-.icon-container {
+.icon-container 
+{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.filtre .icon-container {
+.filtre .icon-container 
+{
     width: 42px;
     height: 42px;
     background-color: #DEEBFF;
@@ -240,7 +242,8 @@ button:hover
     margin-left: 10px;
 }
 
-.filtre:hover {
+.filtre:hover 
+{
     background-color: #DEEBFF;
     border-color: transparent;
 }
@@ -266,7 +269,8 @@ button:hover
     border-radius: 50%;  
 }
 
-.icon-circle-container {
+.icon-circle-container 
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -370,11 +374,11 @@ button:hover
     margin-left: 5px; 
 }
 
-.more
+.more h3
 {
     flex-basis: 100%;
-    padding-top: 20px;
     padding-bottom: 25px;
+    margin-left: 30px;
 }
 
 
@@ -476,7 +480,6 @@ button:hover
     padding-right: 30px;
     padding-left: 30px;
 }
-
 
 .cardactivities
 {
@@ -822,7 +825,6 @@ footer div
     }
 
     /*body*/
-    
     .main
     {
         flex-direction: column;
@@ -1113,7 +1115,7 @@ footer div
     }
 }
 
-/*TABLET*/
+/* Tablet Version */
 @media only screen and (min-width: 768px) and (max-width: 1024px)
 {
     /* FILTRES */
@@ -1209,11 +1211,6 @@ footer div
         width: 290px;
     }
 
-    .more
-    {
-        margin-left: 30px;
-    }
-
     /* ACTIVITES */
 
     .miniblocard
@@ -1227,7 +1224,5 @@ footer div
     {
         margin-right: 45px;
     }
-
-
 }
 
