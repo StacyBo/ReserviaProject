@@ -534,11 +534,6 @@ button:hover
     width: 280px;
 }
 
-.hebergement1
-{
-    height: 450px;
-}
-
 .media-activities1
 {
     height: 400px;
@@ -547,10 +542,6 @@ button:hover
     border-radius: 1em 1em 0 0;
 }
 
-.hebergement2 
-{
-    height: 240px;
-}
 
 .media-activities2
 {
@@ -558,12 +549,6 @@ button:hover
     width: 100%;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
-}
-
-.hebergement3 
-{
-    height: 180px;
-
 }
 
 .media-activities3
@@ -574,11 +559,6 @@ button:hover
     border-radius: 1em 1em 0 0;
 }
 
-.hebergement4
-{
-    height: 445px;
-}
-
 .media-activities4
 {
     height: 400px;
@@ -587,22 +567,12 @@ button:hover
     border-radius: 1em 1em 0 0;
 }
 
-.hebergement5 
-{
-    height: 240px;
-}
-
 .media-activities5
 {
     height: 190px;
     width: 100%;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
-}
-
-.hebergement6 
-{
-    height: 180px;
 }
 
 .media-activities6
@@ -841,6 +811,7 @@ footer div
 
     .hebergements
     {
+        display: flex;
         width: 100%;
         background-color: white;
         justify-content: center;
@@ -911,6 +882,8 @@ footer div
 
     .more h3
     {
+        display: flex;
+        flex-wrap: wrap;
         font-size: 1em;
         padding-top: 0px;
         padding-bottom: 0px;
