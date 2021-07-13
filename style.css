@@ -294,7 +294,6 @@ button:hover
 
 /*Hebergements*/
 
-
 .hebergements
 {
     display: flex;
@@ -307,6 +306,7 @@ button:hover
 
 .title-hebergements
 {
+    justify-content: right;
     flex-basis: 100%;
     margin-left: 30px;
 }
@@ -803,6 +803,7 @@ footer div
     
     .hebergements_popular
     {
+        display: flex;
         flex-direction: column-reverse;
         height: auto;
         margin-left: 0px;
@@ -811,10 +812,10 @@ footer div
 
     .hebergements
     {
-        display: flex;
+        flex-direction: column;
+        align-content: center;
         width: 100%;
         background-color: white;
-        justify-content: center;
     }
 
     .title-hebergements
