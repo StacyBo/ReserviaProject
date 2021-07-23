@@ -1,43 +1,37 @@
-body 
-{
+body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
 
-main
-{
+main {
     display: flex;
     flex-wrap: wrap;
 }
 
-h1
-{
+body {
     font-family: 'Raleway', sans-serif;
+}
+
+h1 {
     font-weight : bold;
     font-size: 1.3em;
 }
 
-h2
-{
-    font-family: 'Raleway', sans-serif;
+h2 {
     font-weight : bold;
     font-size: 1.4em;  
     margin-top: 30px;
 }
 
-h3
-{
-    font-family: 'Raleway' , sans-serif;
+h3 {
     font-weight: bold;
     font-size: 1em;
     color: black;
     margin-left: 15px;
 }
 
-p
-{
-    font-family: 'Raleway' , sans-serif;
+p {
     font-weight: 200;
     font-size: 0.9em;
     color: black;
@@ -45,8 +39,7 @@ p
 
 /* Header */
 
-header
-{
+header {
     display: grid;
     align-items: center;
     grid-template-columns: 8fr 1fr 1fr;
@@ -55,37 +48,30 @@ header
     ;
 }
 
-#logo
-{
+#logo {
     grid-area: logo;
 }
 
-#logo img
-{
+#logo img {
     height: 40px;
     margin-left: 30px;
 }
 
-.menu
-{
+.menu {
     grid-area: menu;
     margin-right: 40px;
 }
 
-.inscription
-{
+.inscription {
     grid-area: sub;
 }
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
 }
 
-nav a
-{
-    font-family: 'Raleway', sans-serif;
+nav a {
     font-weight : 200 ;
     font-size: 0.9em;
     color: black;
@@ -94,17 +80,14 @@ nav a
     padding-right: 20px;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding-top: 20px;
 }
 
 
-.inscription a
-{
-    font-family: 'Raleway', sans-serif;
+.inscription a {
     font-weight : 600;
     font-size: 1em;
     color: #0065FC;
@@ -112,29 +95,25 @@ nav a:hover
     padding-right: 30px;
 }
 
-.inscription a:hover
-{
+.inscription a:hover {
     color: #0255d3;
 }
 
 /* title */
 
-.title-information
-{
+.title-information {
     margin-left: 30px;
 }
 
 /*barre de recherche*/
 
-.recherche 
-{
+.recherche {
     display: flex;
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.recherche .icon-container 
-{
+.recherche .icon-container {
     width: 50px;
     height: 50px;
     background-color: #F2F2F2;
@@ -142,8 +121,7 @@ nav a:hover
     border-bottom-left-radius: 50px;
 }
 
-.searchbox
-{
+input.searchbox {
     background-color: white;
     border-width: 2px 0  2px 0;
     border-color: #F2F2F2;
@@ -154,16 +132,12 @@ nav a:hover
     padding-left: 15px;
 }
 
-::placeholder
-{
+.searchbox::placeholder {
     color: #646464;
-    font-family: 'Raleway', sans-serif;
     font-weight : bold ;
 }
 
-button
-{
-    font-family: 'Raleway', sans-serif;
+form .recherche button {
     font-weight : bold ;
     font-size: 1em;
     background-color: #0065FC;
@@ -174,20 +148,17 @@ button
     border-radius: 0 1em 1em 0;
 }
 
-button:hover
-{
+button:hover {
     background-color: #0255d3;
 }
 
-.fas.fa-search
-{
+form .recherche button i {
     display: none;
 }
 
 /*filtres*/
 
-.filtres
-{
+.filtres {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -196,13 +167,11 @@ button:hover
     align-items: baseline;
 }
 
-.filtres a
-{
+.filtres a {
     text-decoration: none;
 }
 
-.filtre 
-{
+.filtre {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -217,41 +186,35 @@ button:hover
     padding-right: 20px;
 }
 
-.icon-container 
-{
+.icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.filtre .icon-container 
-{
+.filtre .icon-container {
     width: 42px;
     height: 42px;
     background-color: #DEEBFF;
     border-radius: 2em 2em 2em 2em;
 }
 
-.filtre i 
-{
+.filtre i {
     color: #0065FC;
 }
 
-.filtre h3 
-{
+.filtre h3 {
     margin-left: 10px;
 }
 
-.filtre:hover 
-{
+.filtre:hover {
     background-color: #DEEBFF;
     border-color: transparent;
 }
 
 /* infos restant*/
 
-.infos
-{
+.infos {
     display: flex;
     align-items: center;
     margin-left: 30px;
@@ -259,8 +222,7 @@ button:hover
     margin-bottom: 20px;
 }
 
-.infos .icon-circle-container 
-{
+.infos .icon-circle-container {
     width: 30px;
     height: 30px;
     background-color:white;
@@ -269,23 +231,20 @@ button:hover
     border-radius: 50%;  
 }
 
-.icon-circle-container 
-{
+.icon-circle-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 10px;
 }
 
-.fas.icone-filtre
-{
+.fas.icone-filtre {
     color: #0065FC;
 }
 
 /* MAIN */
 
-.hebergements_popular
-{
+.hebergements_popular {
     display: flex;
     flex-wrap: wrap;
     margin-left: 30px;
@@ -294,8 +253,7 @@ button:hover
 
 /*Hebergements*/
 
-.hebergements
-{
+.hebergements {
     display: flex;
     flex-wrap: wrap;
     height: auto;
@@ -304,15 +262,13 @@ button:hover
     flex : 2;
 }
 
-.title-hebergements
-{
+.title-hebergements {
     justify-content: right;
     flex-basis: 100%;
     margin-left: 30px;
 }
 
-.bloc-card-hebergements
-{    
+.bloc-card-hebergements {    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -321,8 +277,7 @@ button:hover
     padding-top: 10px;
 }
 
-.cardhebergements
-{
+.cardhebergements {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -334,38 +289,32 @@ button:hover
     margin-bottom: 20px;
 }
 
-.cardhebergements h3 
-{
+.cardhebergements h3 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.cardhebergements p 
-{
+.cardhebergements p {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 15px;
 }
 
-.cardhebergements i
-{
+.cardhebergements i {
     font-size: 0.95em;
     padding-bottom: 10px;
 }
 
-.bloc-card-hebergements a
-{
+.bloc-card-hebergements a {
     text-decoration: none;
 }
 
-.cardhebergements:hover
-{
+.cardhebergements:hover {
     box-shadow: 0px 3px 15px #9da8b8;
     border-radius: 1em 1em 1em 1em;
 }
 
-.media-hebergements
-{
+.media-hebergements {
     width: 220px;
     height: 120px;
     object-fit: cover;
@@ -374,21 +323,21 @@ button:hover
     margin-left: 5px; 
 }
 
-.more h3
-{
+.more h3 {
     flex-basis: 100%;
     padding-bottom: 25px;
     margin-left: 30px;
 }
 
+.menu-more{
+    text-decoration: none;
+}
 
 /* POPULAIRES */
 
-.popular
-{    
+.popular {    
     display: flex;
     flex-wrap: wrap;
-    justify-content: baseline;
     background-color: #F2F2F2;
     border-radius: 1em 1em 1em 1em;
     height: auto;
@@ -396,8 +345,7 @@ button:hover
     flex: 1;
 }
 
-.title-popular
-{
+.title-popular {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -407,18 +355,15 @@ button:hover
     margin-right: 30px;
 }
 
-.fas.fa-chart-line
-{
+.fas.fa-chart-line {
     font-size: 1.5em;
 }
 
-.bloc-card-popular a
-{
+.bloc-card-popular a {
     text-decoration: none;
 }
 
-.cardpopular
-{
+.cardpopular {
     display: flex;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
@@ -429,31 +374,26 @@ button:hover
     margin-bottom: 40px;
 }
 
-.cardpopular p
-{
+.cardpopular p {
     margin-top: 10px;
     margin-bottom: 35px;
     margin-left: 15px;
 }
 
-.cardpopular h3
-{
+.cardpopular h3 {
     margin-bottom: 0px;
 }
 
-.cardpopular i
-{
+.cardpopular i {
     font-size: 0.9em;
 }
 
-.cardpopular:hover
-{
+.cardpopular:hover {
     box-shadow: 0px 3px 15px #8f9aaa;
     border-radius: 1em 1em 1em 1em;
 }
 
-.media-popular
-{
+.media-popular {
     width: 125px;
     height: 140px;
     object-fit: cover;
@@ -462,27 +402,23 @@ button:hover
     margin-left: 5px; 
 }
 
-.fa-star
-{
+.fa-star {
     color: #0065FC;
 }
 
-.fa-star.disabled-star
-{
+.fa-star.disabled-star {
     color: #F2F2F2;
 }
 
 /*Activités*/
 
-#activities
-{
+#activities {
     flex-wrap: wrap;
     padding-right: 30px;
     padding-left: 30px;
 }
 
-.cardactivities
-{
+.cardactivities {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -494,27 +430,23 @@ button:hover
     width: 280px;
 }
 
-.bloc-card
-{
+.bloc-card {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
-.bloc-card a
-{
+.bloc-card a {
     text-decoration: none;
 }
 
-.bloc-card a:hover
-{
+.bloc-card a:hover {
     box-shadow: 0px 3px 15px #9da8b8;
     border-radius: 1em 1em 1em 1em;
     color: blueviolet;
 }
 
-.blocsuperposition
-{
+.blocsuperposition {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -522,8 +454,7 @@ button:hover
     justify-content: space-between;
 }
 
-.miniblocard
-{
+.miniblocard {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -534,8 +465,7 @@ button:hover
     width: 280px;
 }
 
-.media-activities1
-{
+.media-activities1 {
     height: 400px;
     width: 100%;
     object-fit: cover;
@@ -543,40 +473,35 @@ button:hover
 }
 
 
-.media-activities2
-{
+.media-activities2 {
     height: 190px;
     width: 100%;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
 }
 
-.media-activities3
-{
+.media-activities3 {
     height: 130px;
     width: 100%;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
 }
 
-.media-activities4
-{
+.media-activities4 {
     height: 400px;
     width: 100%;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
 }
 
-.media-activities5
-{
+.media-activities5 {
     height: 190px;
     width: 100%;
     object-fit: cover;
     border-radius: 1em 1em 0 0;
 }
 
-.media-activities6
-{
+.media-activities6 {
     height: 130px;
     width: 100%;
     object-fit: cover;
@@ -585,8 +510,7 @@ button:hover
 
 /*footer*/
 
-footer
-{
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -596,9 +520,7 @@ footer
     width: 100% ;
 }
 
-footer ul
-{
-    font-family: 'Raleway' , sans-serif;
+footer ul {
     font-weight: 200;
     font-size: 1em;
     color: black;
@@ -606,19 +528,15 @@ footer ul
     padding-left: 15px;
 }
 
-footer ul li
-{
+footer ul li {
     padding-bottom: 10px;
 }
 
-footer h3
-{
+footer h3 {
     margin-left: 15px;
 }
 
-
-footer div
-{
+footer div {
     display: block;
     padding: 15px;
     text-align: left;
@@ -630,8 +548,7 @@ footer div
 {
     /*HEADER*/
 
-    header
-    {
+    header {
         display: grid;
         align-items: center;
         margin-top: 30px;
@@ -643,31 +560,26 @@ footer div
         ;
     }
 
-    #logo img
-    {
+    #logo img {
         height: 55px;
     }
 
-    .menu
-    {
+    .menu {
         margin-right: 0px;
     }
 
-    .inscription
-    {
+    .inscription {
         text-align: right;
         font-size: 1.2em;
     }
 
-    nav ul
-    {
+    nav ul {
         justify-content: center;
         padding-left: 0px;
         margin-top: 25px;
     }
 
-    nav a
-    {
+    nav a {
         font-size: 1.1em;
         border-bottom: 3px solid #F2F2F2;
         padding-bottom: 15px;
@@ -675,8 +587,7 @@ footer div
         padding-left: 45px;
     }
 
-    nav a:hover
-    {
+    nav a:hover {
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
         padding-bottom: 15px;
@@ -686,48 +597,41 @@ footer div
 
     /* title */
 
-    h1
-    {
+    h1 {
         font-size: 1.3em;
         margin-right: 30px;
         margin-top: 40px;
     }
 
-    .title-information p 
-    {
+    .title-information p {
         font-size: 0.95em;
     }
 
     /*recherche*/
     
-    .recherche 
-    {
+    .recherche {
         margin-top: 30px;
         margin-left: 30px;
         margin-right: 30px;
     }
 
-    .recherche .icon-container 
-    {
+    .recherche .icon-container {
         height: 50px;
         width: 60px;
         border-top-left-radius: 30%;
         border-bottom-left-radius: 30%;
     }
     
-    .searchbox
-    {
+    .searchbox {
         border-width: 2px 0  2px 0;
         height: 50px;
     }
     
-    .recherche i.fas.fa-search
-    {
+    .recherche i.fas.fa-search {
         display: inline;
     }
 
-    button
-    {
+    button {
         height: 50px;
         width: 50px;
         border-style: none;
@@ -735,21 +639,18 @@ footer div
         margin-left: -15px;
     }
 
-    form span
-    {
+    form span {
         display: none;
     }
 
     /*filtres*/
 
-    .filtres h3
-    {
+    .filtres h3 {
         font-size: 1.1em;
         width: 100%;
     }
 
-    .filtres
-    {
+    .filtres {
         display: flex;
         flex-wrap: wrap;
         margin-left: 15px;
@@ -758,8 +659,7 @@ footer div
         align-items: baseline;
     }
 
-    .filtre 
-    {
+    .filtre {
         height: 40px;
         width: auto;
         margin-bottom: 15px;
@@ -768,8 +668,7 @@ footer div
         border-radius: 5em 5em 5em 5em;
     }
 
-    .filtre .icon-container 
-    {
+    .filtre .icon-container {
         height: 44px;
         width: 70px;    
         font-size: 1.5em;    
@@ -777,15 +676,13 @@ footer div
     }
 
     /*infos*/
-    .infos
-    {
+    .infos {
         margin-top: 0px;
         margin-bottom: 20px;
         margin-right: 20px;
     }
 
-    .infos .icon-circle-container 
-    {
+    .infos .icon-circle-container {
         width: 35px;
         height: 30px;
         font-size: 1em;
@@ -795,14 +692,12 @@ footer div
     }
 
     /*body*/
-    .main
-    {
+    .main {
         flex-direction: column;
         height: auto;
     }
     
-    .hebergements_popular
-    {
+    .hebergements_popular {
         display: flex;
         flex-direction: column-reverse;
         height: auto;
@@ -810,32 +705,27 @@ footer div
         margin-right: 0px;
     }
 
-    .hebergements
-    {
+    .hebergements {
         flex-direction: column;
         align-content: center;
         width: 100%;
         background-color: white;
     }
 
-    .title-hebergements
-    {
+    .title-hebergements {
         margin-left: 20px;
     }
 
-    .hebergements h2
-    {
+    .hebergements h2 {
         font-size: 1.3em;
         text-align: left;
     }
 
-    .bloc-card-hebergements
-    {
+    .bloc-card-hebergements {
         flex-direction: column;
     }
 
-    .cardhebergements
-    {
+    .cardhebergements {
         flex-direction: column;
         align-content: center;
         height: 200px;
@@ -844,45 +734,39 @@ footer div
         margin-top: 0px;
     }
 
-    .cardhebergements:hover
-    {
+    .cardhebergements:hover {
         box-shadow: 0px 3px 10px #9da8b8;
         border-radius: 1.5em 1.5em 1.5em 1.5em;
     }
 
-    .media-hebergements
-    {
+    .media-hebergements {
         height: 60%;
         width: 95%;
         margin-left: 0px;
         border-radius: 1.2em 1.2em 0 0;
     }
 
-    .cardhebergements h3
-    {
+    .cardhebergements h3 {
         font-size: 1em;
         margin: 0px;
         padding-top: 5px;
         padding-left: 10px;
     }
     
-    .cardhebergements p
-    {
+    .cardhebergements p {
         font-size: 0.9em;
         margin: 0px;
         padding-top: 5px;
         padding-left: 10px;
     }
 
-    .cardhebergements i
-    {
+    .cardhebergements i {
         font-size: 0.8em;
         margin: 0px;
         padding: 0px;
     }
 
-    .more h3
-    {
+    .more h3 {
         display: flex;
         flex-wrap: wrap;
         font-size: 1em;
@@ -894,8 +778,7 @@ footer div
 
     /*popular*/
 
-    .popular
-    {
+    .popular {
         justify-content: center;
         margin-left: 0;
         border-radius: 0;
@@ -903,18 +786,15 @@ footer div
         padding-bottom: 30px;
     }
 
-    .title-popular
-    {
+    .title-popular {
         margin-bottom: 20px;
     }
 
-    .fas.fa-chart-line
-    {
+    .fas.fa-chart-line {
         font-size: 4em;
     }
 
-    .cardpopular
-    {
+    .cardpopular {
         justify-content: flex-start;
         height: 145px;
         width: 330px;
@@ -923,46 +803,38 @@ footer div
         margin-bottom: 20px;
     }
 
-    .cardpopular p
-    {
+    .cardpopular p {
         margin-top: 5px;
         margin-bottom: 40px;
         margin-left: 15px;
     }
 
-    .cardpopular:hover
-    {
+    .cardpopular:hover {
         box-shadow: 0px 3px 10px #8f9aaa;
         border-radius: 1.5em 1.5em 1.5em 1.5em;
     }
 
-    .popular h2
-    {
+    .popular h2 {
         font-size: 1.2em;
     }
 
-    .fas.fa-chart-line
-    {
+    .fas.fa-chart-line {
         font-size: 1.5em;
     }
 
-    .popular h3
-    {
+    .popular h3 {
         font-size: 0.9em;
     }
     
-    .popular p
-    {
+    .popular p {
         font-size: 0.8em;
     }
 
-    .popular i 
-    {
+    .popular i {
         font-size: 0.8em;
     }
 
-    .media-popular
-    {
+    .media-popular {
         height: 135px;
         width: 130px;
         border-radius: 1.2em 0 0 1.2em;
@@ -970,90 +842,77 @@ footer div
 
    /*activite*/
 
-    #activities
-    {
+    #activities {
         flex-direction: column;
     }
 
-    #activities h2
-    {
+    #activities h2 {
         font-size: 1.3em;
     }
     
-    .bloc-card
-    {
+    .bloc-card {
         flex-direction: column;
         align-content: center;
     }
 
-    .bloc-card a:hover
-    {
+    .bloc-card a:hover {
         width: 330px;
         height: 180px;
         box-shadow: 0px 3px 10px #9da8b8;
         border-radius: 1.5em 1.5em 1.5em 1.5em;
     }
 
-    .cardactivities
-    {
+    .cardactivities {
         width: 330px;
         height: 180px;
         margin-bottom: 10px;
         border-radius: 1.5em 1.5em 1.5em 1.5em;
     }
 
-    .miniblocard
-    {
+    .miniblocard {
         width: 330px;
         height: 180px;
         margin-bottom: 10px;
         border-radius: 1.5em 1.5em 1.5em 1.5em;
     }
 
-    .bloc-card h3
-    {
+    .bloc-card h3 {
         font-size: 1em;
         margin-top: 15px;
         margin-left: 20px;
     }
 
-    .media-activities1
-    {
+    .media-activities1 {
         width: 330px;
         height: 120px;
         border-radius: 1.5em 1.5em 0 0;
     }
     
-    .media-activities2
-    {
+    .media-activities2 {
         width: 330px;
         height: 120px;
         border-radius: 1.5em 1.5em 0 0;
     }
 
-    .media-activities3
-    {
+    .media-activities3 {
         width: 330px;
         height: 120px;
         border-radius: 1.5em 1.5em 0 0;
     }
 
-    .media-activities4
-    {
+    .media-activities4 {
         width: 330px;
         height: 120px;
         border-radius: 1.5em 1.5em 0 0;
     }
     
-    .media-activities5
-    {
+    .media-activities5 {
         width: 330px;
         height: 120px;
         border-radius: 1.5em 1.5em 0 0;
     }
 
-    .media-activities6
-    {
+    .media-activities6 {
         width: 330px;
         height: 120px;
         border-radius: 1.5em 1.5em 0 0;
@@ -1061,29 +920,25 @@ footer div
 
     /* footer*/
 
-    footer
-    {
+    footer {
         flex-direction: column;
         padding-top: 30px;
     }
 
-    footer div
-    {
+    footer div {
         margin-right: 0px;
         padding-bottom: 0px;
         padding-top: 0px;
     }
 
-    .title-footer
-    {
+    .title-footer {
         font-size: 1.3em;
         margin-left: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
-    footer ul li
-    {
+    footer ul li {
         font-size: 1em;
         margin-left: 5px;
     }
@@ -1093,109 +948,93 @@ footer div
 @media only screen and (min-width: 768px) and (max-width: 1024px)
 {
     /* FILTRES */
-    .filtres
-    {
+    .filtres {
         display: flex;
         flex-wrap: wrap;
         margin-top: 15px;
     }
 
-    .title-filtres
-    {
+    .title-filtres {
         width: 100%;
     }
 
-    .filtre
-    {
+    .filtre {
         margin-bottom: 15px;
         font-size: 0.8em;
         margin-right: 15px;
     }
 
-    .infos
-    {
+    .infos {
         margin-top: 0px;
     }
 
     /* HEBERGEMENTS - POPULAIRES */
 
-    .hebergements_popular
-    {
+    .hebergements_popular {
         display: flex;
         flex-direction: column-reverse;
         margin-left: 0px;
     }
 
-    .popular
-    {
+    .popular {
         padding-bottom: 25px;
         padding-right: 30px;
     }
 
-    .bloc-card-popular
-    {
+    .bloc-card-popular {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .bloc-card-popular a 
-    {
+    .bloc-card-popular a {
         margin-left: 0px;
     }
     
-    .title-popular h2
-    {
+    .title-popular h2 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    .cardpopular
-    {
+    .cardpopular {
         width: 300px;
         height: 120px;
         margin-top: 10px;
         margin-bottom: 0px;
     }
 
-    .cardpopular p
-    {
+    .cardpopular p {
         margin-bottom: 0px;
     }
-    .media-popular
-    {
+
+    .media-popular {
         height: 110px;
     }
 
-    .hebergements
-    {
+    .hebergements {
         margin-left: 30px;
         margin-top: 20px;
     }
 
-    .cardhebergements
-    {
+    .cardhebergements {
         flex-direction: column;
         width: 300px;
         height: 220px;
     }
 
-    .media-hebergements
-    {
+    .media-hebergements {
         width: 290px;
     }
 
     /* ACTIVITES */
 
-    .miniblocard
-    {
+    .miniblocard {
         width: 400px;
     }
 
     /*footer*/
 
-    footer div
-    {
+    footer div {
         margin-right: 45px;
     }
 }
